@@ -4,7 +4,7 @@
 
 ![Gameplay Screenshot](https://github.com/baralbishwas07/js-mini-projects/blob/main/Assets/UI%20Image/gamePlay.png)
 
-Welcome to the **Rock Paper Scissors** game! 
+Welcome to the **Rock Paper Scissors** game!  
 This is a simple web-based implementation of the classic game using HTML, CSS, and JavaScript.
 
 ## 🌟 Features
