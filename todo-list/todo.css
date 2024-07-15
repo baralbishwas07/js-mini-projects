@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    background-color: #D8EFD3;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-container {
+    display: flex;
+    flex-shrink: 1;;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3FA2F6;
+    text-transform: uppercase;
+}
+
+.input-grid, .todo-lists {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.input-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.input-todo, .due-date {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.add-todo {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 5px;
+    background-color: #508D4E;
+    color: white;
+}
+
+.todo-delete {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 5px;
+    background-color: #E84545;
+    color: white;
+}
+
+@media (max-width: 550px) {
+    .input-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .input-todo, .due-date {
+        width: 100%;
+    }
+}
