@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Ariel;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.show-result{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.show-score{
+    margin-top: 60px;
+}
+.reset-button,.auto-play-button,.yes-button,.no-button{
+    padding: 8px 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+.reset-confirmation{
+    padding: 7px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #686D76;
+}
+.yes-button{
+    background-color: green;
+    color: white;
+}
+.no-button{
+    background-color: red;
+    color: white;
+}
