@@ -182,7 +182,7 @@ function pickResult(playerMove) {
     }
     localStorage.setItem('score', JSON.stringify(score));
     updateScoreElement();
-    document.querySelector('.js-pick').innerHTML = `You <img src="Assets/${playerMove}-emoji.png" class="move-icon">  <img src="Assets/${computerMove}-emoji.png" class="move-icon"> Computer`;
+    document.querySelector('.js-pick').innerHTML = `You <img src="../Assets/${playerMove}-emoji.png" class="move-icon">  <img src="../Assets/${computerMove}-emoji.png" class="move-icon"> Computer`;
     document.querySelector('.js-result').innerHTML = `${result}`;
 }
 
